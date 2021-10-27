@@ -1,0 +1,3 @@
+const chorus = 'hello ';
+
+console.log(`: ${chorus.repeat(10)}`);
