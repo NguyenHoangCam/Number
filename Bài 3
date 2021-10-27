@@ -1,0 +1,9 @@
+function capitalizeString(string) {
+    let hoa = string.toLowerCase().split(" ");
+    for(var i = 0; i< hoa.length; i++){
+       hoa[i] = hoa[i][0].toUpperCase() + hoa[i].slice(1);
+    }
+    return hoa.join(" ");
+  }
+  let result = capitalizeString('chÀo MừnG đẾn với xTP');
+console.log(result);
