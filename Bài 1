@@ -1,0 +1,5 @@
+function checkStringExist(strA, strB) {
+    return strA.includes(strB);
+}
+
+console.log(checkStringExist("i love you", "you"))
