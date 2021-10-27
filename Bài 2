@@ -1,0 +1,3 @@
+const str = "Xin chào các bạn";
+let otherchar ="..."
+console.log(str.substring(0,9)+ otherchar);
